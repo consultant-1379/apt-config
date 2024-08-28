@@ -1,0 +1,1 @@
+{"modification_type": "pre", "version": 0.1, "test_id": "SYS_ENM_SGLL", "id": "SysLogSizeAndEntriesValue", "value": {"service_groups_with_thresholds": {"mspmip": 258, "httpd": 457, "securityservice": 1600, "amos": 251, "smrsservice": 279}, "max_log_size": 116, "tolerance_percentage": 200}}

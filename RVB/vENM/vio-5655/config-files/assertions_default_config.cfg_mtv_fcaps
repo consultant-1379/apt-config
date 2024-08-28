@@ -1,0 +1,15 @@
+[Run_Test_Settings]
+; exclude_ids specifies the list of test ids to skip when running the assertions tool
+; exclude_ids expects a comma seperated list of test ids, e.g. exclude_ids = cmimport_enm_9vo5,amos_load_pqo3
+exclude_ids =
+; run_only_ids specifies the list of test ids to only run when running the assertions tool, skipping all other test cases
+; run_only_ids expects a comma seperated list of test ids, e.g. run_only_ids = cmimport_enm_9vo5,amos_load_pqo3
+run_only_ids = AMOS_LOAD_PQO3,AMOS_ENM_UOQ2,CMEVENTS_ENM_JL9T,CMEVENTS_LOAD_M99H,CMEVENTS_ENM_L2GU,CMEXPORT_LOAD_TLWR,CMEXPORT_ENM_80YY,CMEXPORT_ENM_MGW2,CMEXPORT_ENM_YYJS,CMIMPORT_LOAD_0HU1,CMIMPORT_ENM_3X87,CMIMPORT_ENM_ZU56,CMIMPORT_ENM_LI10,CMIMPORT_ENM_1FZM,CMSYNC_LOAD_B3NI,CMSYNC_ENM_WPIK,CMSYNC_ENM_5RBO,CMSYNC_ENM_TY9I,CMSYNC_ENM_TRAM,CMSYNC_ENM_TYUI,CMSYNC_ENM_14KF,CMSYNC_ENM_E9OX,CMSYNC_ENM_53QS,CMSYNC_ENM_MDIR,FM_ENM_SAPG,FM_ENM_N40E,FM_ENM_7GV3,FM_ENM_F2HB,FM_LOAD_500Z,FM_LOAD_EHDV,FM_ENM_MSOI,FM_ENM_WGFT,FM_ENM_EWYG,FM_LOAD_MCDR,FM_LOAD_RR69,FM_LOAD_U4QP,FM_ENM_SQAK,FMX_ENM_MA86,NEO4J_ENM_DNFF,NEO4J_ENM_ZD0U,NEO4J_ENM_QXMV,NEO4J_ENM_80DG,PM_ENM_T877,PM_ENM_67BT,PM_LOAD_80DG,PM_LOAD_TIYH,PM_ENM_STQY,PM_ENM_D5YZ,PM_ENM_366H,PM_ENM_FMJX,PM_ENM_24JK,PM_ENM_HJ7V,PM_ENM_NFPP,SHM_LOAD_SU03,SHM_LOAD_SU05,SHM_LOAD_SJ2E,SHM_LOAD_OQF3,SHM_LOAD_SU36,SHM_LOAD_SU40,SHM_LOAD_SU42,SHM_LOAD_JITP,SHM_LOAD_BU01,SHM_LOAD_FSH9,SHM_LOAD_JKE1,SHM_LOAD_HK33,SHM_LOAD_BU39,SHM_LOAD_BU41,SHM_LOAD_BU43,SECUI_LOAD_LH2P,SYS_ENM_XL63,SYS_ENM_SGLL,SYS_ENM_Z1R4,SYS_ENM_24ST,SYS_ENM_KMCP,SYS_ENM_SVGT,SYS_ENM_5R83,SYS_ENM_53G1,SYS_ENM_OKS5,SYS_ENM_M0WL,SYS_ENM_DUMO,SYS_ENM_X5HG,SYS_ENM_5WU7,AP_LOAD_9PCC,CBRS_ENM_CBSD,CBRS_ENM_EXBR,CM_ENM_07MMA,CMIMPORT_ENM_NT10
+; ddp_latency specifies the ddp latency that should be included when running the tool, default is set at 5 minutes
+ddp_latency = 5
+; deployment_size overrides the deployment size used for the assertion tester. one of the following configurations can be used : fifteen_network, transport_twenty_network, one_hundred_network, extra_small_network, five_network, forty_network, sixty_network, soem_five_network
+deployment_size = soem_five_network
+[Profile_Status_Assertion]
+; pm_setup_profile_list specifies the list of setup profiles
+; pm_setup_profile_list expects a comma seperated list of pm setup profiles, e.g. pm_setup_profile_list = pm_17,pm_15,pm_01
+pm_setup_profile_list =

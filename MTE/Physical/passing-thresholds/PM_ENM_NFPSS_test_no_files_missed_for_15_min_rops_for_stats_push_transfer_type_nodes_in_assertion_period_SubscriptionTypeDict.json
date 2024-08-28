@@ -1,0 +1,1 @@
+{"modification_type": "pre", "version": 0.1, "test_id": "PM_ENM_NFPSS", "id": "SubscriptionTypeDict", "value": {"PUSH": ["MINI-LINK-6352:PM_STATISTICAL","MINI-LINK-669x:PM_STATISTICAL","ESC:PM_STATISTICAL","SBG-IS:PM_STATISTICAL"], "PULL": [], "GENERATION": []}}

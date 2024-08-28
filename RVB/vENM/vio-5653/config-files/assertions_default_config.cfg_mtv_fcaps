@@ -1,0 +1,10 @@
+[Run_Test_Settings]
+; exclude_ids specifies the list of test ids to skip when running the assertions tool
+; exclude_ids expects a comma seperated list of test ids, e.g. exclude_ids = cmimport_enm_9vo5,amos_load_pqo3
+exclude_ids = PROFILE_STATUS_GG00,PROFILE_RUNNING_4R08,CMSYNC_ENM_DGSM,CMSYNC_ENM_TY9I,FM_ENM_SAPG,FM_ENM_MSOI,CMSYNC_ENM_UEGM,PM_ENM_67GN,PM_ENM_1MGN,PM_ENM_15GN,PM_ENM_24GN,PM_ENM_MFGN,PM_ENM_NFGN,PM_ENM_24MG,SHM_LOAD_SU36,SHM_LOAD_SU40,SHM_LOAD_SU42,SHM_LOAD_SU44,SHM_LOAD_BU39,SHM_LOAD_BU41,SHM_LOAD_BU43,FM_ENM_FMAP
+; run_only_ids specifies the list of test ids to only run when running the assertions tool, skipping all other test cases
+; run_only_ids expects a comma seperated list of test ids, e.g. run_only_ids = cmimport_enm_9vo5,amos_load_pqo3
+run_only_ids =
+ddp_latency = 0
+deployment_size = five_network
+

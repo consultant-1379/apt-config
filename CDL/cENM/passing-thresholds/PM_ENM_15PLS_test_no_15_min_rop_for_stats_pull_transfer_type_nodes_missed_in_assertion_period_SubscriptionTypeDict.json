@@ -1,0 +1,1 @@
+{"modification_type": "pre", "version": 0.1, "test_id": "PM_ENM_15PLS", "id": "SubscriptionTypeDict", "value": {"PUSH": [], "PULL": ["MGW:PM_STATISTICAL", "SGSN-MME:PM_STATISTICAL", "RadioNode:PM_STATISTICAL", "MTAS:PM_STATISTICAL", "DSC:PM_STATISTICAL", "EPG:PM_STATISTICAL","Router6675:PM_STATISTICAL"], "GENERATION": []}}

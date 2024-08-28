@@ -1,0 +1,7 @@
+precodereview.Jenkinsfile
+publish.Jenkinsfile
+README.md
+exclude.txt
+.gitignore
+.idea
+.git
